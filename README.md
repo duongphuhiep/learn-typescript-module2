@@ -14,13 +14,14 @@ I want to use the module loader on a front-end application (not a [`nodejs`](htt
 
 ##Project structure
 * `npm run build` will compile `app/*.ts` into the `gen` folder (see [`tsconfig.json`](/app/tsconfig.json))
+
 ![project structure](/res/project_structure.PNG)
 
 * The compiler is configured to produce AMD module
 
- 	"compilerOptions": {
-    	"module": "amd",
-    	...
+    "compilerOptions": {
+        "module": "amd",
+        ...
     }
 
 * in the [`index.html`](/app/index.html), the [`stealjs`](http://stealjs.com/) load the [`main.js`](/app/main.ts)
