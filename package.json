@@ -1,0 +1,28 @@
+{
+  "name": "learning-ts-module2",
+  "version": "1.0.0",
+  "author": "hiep <duongphuhiep@gmail.com>",
+  "description": "Training Typescript - Module and external library",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "build:tags": "riot app gen/tags.js --ext rtg",
+    "build:typescript": "tsc --project app",
+    "build": "npm run build:tags && npm run build:typescript",
+    "watch:tags": "riot --watch --ext rtg --m app gen/tags.js",
+    "watch:typescript": "tsc --watch --project app",
+    "watch": "parallelshell \"npm run watch:tags\" \"npm run watch:typescript\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^0.7.1",
+    "parallelshell": "^1.2.0",
+    "riot": "^2.2.2",
+    "tsd": "^0.6.3",
+    "typescript": "^1.5.3",
+    "typescript-simple": "2.0.0-beta.1"
+  },
+  "dependencies": {
+    "riotcontrol": "0.0.1"
+  }
+}

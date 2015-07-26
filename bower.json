@@ -1,0 +1,30 @@
+{
+  "name": "learning-ts-module2",
+  "version": "1.0.0",
+  "authors": [
+    "hiep <duongphuhiep@gmail.com>"
+  ],
+  "description": "Training Typescript - Module and external librar",
+  "main": "index.html",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "riotjs",
+    "stealjs",
+    "Tutorial"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "riot": "~2.2.2",
+    "steal": "~0.10.5",
+    "jquery": "~2.1.4"
+  }
+}
