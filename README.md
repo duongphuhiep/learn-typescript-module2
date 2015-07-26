@@ -28,3 +28,5 @@ I want to use the module loader on a front-end application (not a [`nodejs`](htt
 ##Remark
 * this example load an internal (hand-made) module ([`Model.js`](/app/todo/Model.ts)) and some external library (riot, RiotControl, jquery) 
 * each module is used in several different modules but they are loaded only once.
+ 
+See also: [Type script module basic example](https://github.com/duongphuhiep/learn-typescript-module)
