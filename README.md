@@ -7,7 +7,7 @@ Demonstration of how to use [`stealjs`](http://stealjs.com/) to load [AMD](https
 	$ npm run build         or      npm run watch  
 	$ npm start             //will open your browser, then you have to navigate to the 'app' folder
 
-![test result](/res/result.PNG)
+![test result](/res/result.png)
 
 ##Why not commonjs?
 I want to use the module loader on a front-end application (not a [`nodejs`](https://nodejs.org/) application) so the AMD is more suitable than commonjs (see also [Why AMD](http://requirejs.org/docs/whyamd.html))
